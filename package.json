@@ -1,0 +1,11 @@
+{
+  "name": "kyles-api",
+  "version": "0.0.1",
+  "description": "just playing around",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Kyle Trahan",
+  "license": "MIT"
+}
