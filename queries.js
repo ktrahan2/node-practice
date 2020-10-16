@@ -1,11 +1,12 @@
 const { validationResult } = require('express-validator')
+require('dotenv').config()
 
 const Pool = require('pg').Pool
 const pool = new Pool({
-    user: 'ktrain',
+    user: process.env.USER,
     host: 'localhost',
     database: 'api',
-    password: '33522389',
+    password: process.env.PASSWORD,
     port: 5432,
 })
 
